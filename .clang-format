@@ -1,0 +1,63 @@
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+BreakBeforeBraces: Allman
+ColumnLimit: 0
+#LineEndingStyle: LF
+UseCRLF: false
+AlignOperands: AlignAfterOperator
+
+BreakBeforeTernaryOperators: true
+IndentCaseLabels: true
+SpaceAfterCStyleCast: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: true
+SpaceBeforeRangeBasedForLoopColon: false
+SpacesBeforeTrailingComments: 1
+SpacesInCStyleCastParentheses: false
+SpacesInConditionalStatement: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpacesInLineCommentPrefix:
+  Minimum: 1
+  Maximum: 1
+
+AlignConsecutiveAssignments: 
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+
+SpaceBeforeParens: Custom 
+SpaceBeforeParensOptions:
+  AfterControlStatements: false
+  # AfterPlacementOperator: false
+
+AllowShortBlocksOnASingleLine: Empty
+SpaceInEmptyBlock: true
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+
+AllowShortCaseLabelsOnASingleLine: false
+BraceWrapping:
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  BeforeWhile: true
+  BeforeElse: true
+  AfterFunction: true
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterObjCDeclaration: true
+  BeforeLambdaBody: true
+  # BraceWrappingAfterControlStatementStyle: Always
+
+# BreakFunctionDefinitionParameters: false 
+IndentCaseBlocks: false
+# IndentCaseLabels: true
+
+BreakStringLiterals: false
